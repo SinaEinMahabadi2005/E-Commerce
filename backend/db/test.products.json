@@ -1,0 +1,286 @@
+[{
+  "_id": {
+    "$oid": "67027316fec12705e7856c82"
+  },
+  "name": "classic hat",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213294408.jpeg"
+  ],
+  "price": 120,
+  "quantity": 3,
+  "categoryId": {
+    "$oid": "670269528b5aa907729144c3"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:23:02.980Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:23:02.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027361fec12705e7856c84"
+  },
+  "name": "blue shirt",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213318316.jpeg"
+  ],
+  "price": 170,
+  "quantity": 5,
+  "categoryId": {
+    "$oid": "670269528b5aa907729144c3"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:24:17.336Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:24:17.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6702739bfec12705e7856c86"
+  },
+  "name": "green shirt",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213326147.jpeg"
+  ],
+  "price": 160,
+  "quantity": 4,
+  "categoryId": {
+    "$oid": "670269528b5aa907729144c3"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:25:15.684Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:25:15.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670273bffec12705e7856c88"
+  },
+  "name": "blue shoe",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213335542.jpeg"
+  ],
+  "price": 110,
+  "quantity": 2,
+  "categoryId": {
+    "$oid": "670269528b5aa907729144c3"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:25:51.319Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:25:51.319Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027791fec12705e7856c8a"
+  },
+  "name": "brown coat",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213371217.jpg"
+  ],
+  "price": 215,
+  "quantity": 7,
+  "categoryId": {
+    "$oid": "670269928b5aa907729144c5"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:42:09.766Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:42:09.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670277c7fec12705e7856c8c"
+  },
+  "name": "classic coat",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213378447.jpeg"
+  ],
+  "price": 240,
+  "quantity": 2,
+  "categoryId": {
+    "$oid": "670269928b5aa907729144c5"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:43:03.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:43:03.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670277ebfec12705e7856c8e"
+  },
+  "name": "white shirt",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213388661.jpeg"
+  ],
+  "price": 180,
+  "quantity": 5,
+  "categoryId": {
+    "$oid": "670269928b5aa907729144c5"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:43:39.530Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:43:39.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027810fec12705e7856c90"
+  },
+  "name": "boots",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213398028.jpeg"
+  ],
+  "price": 320,
+  "quantity": 1,
+  "categoryId": {
+    "$oid": "670269928b5aa907729144c5"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:44:16.940Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:44:16.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027830fec12705e7856c92"
+  },
+  "name": "big bag",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213406855.jpeg"
+  ],
+  "price": 89,
+  "quantity": 7,
+  "categoryId": {
+    "$oid": "670269928b5aa907729144c5"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:44:48.723Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:44:48.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027864fec12705e7856c94"
+  },
+  "name": "blue bag",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213406855.jpeg"
+  ],
+  "price": 75,
+  "quantity": 3,
+  "categoryId": {
+    "$oid": "670269a68b5aa907729144c7"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:45:40.799Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:45:40.799Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027894fec12705e7856c96"
+  },
+  "name": "brown coat",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213447838.jpg"
+  ],
+  "price": 289,
+  "quantity": 2,
+  "categoryId": {
+    "$oid": "670269a68b5aa907729144c7"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:46:28.332Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:46:28.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670278abfec12705e7856c98"
+  },
+  "name": "black coat",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213457001.jpg"
+  ],
+  "price": 289,
+  "quantity": 8,
+  "categoryId": {
+    "$oid": "670269a68b5aa907729144c7"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:46:51.644Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:46:51.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670278cffec12705e7856c9a"
+  },
+  "name": "classic hat",
+  "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum dolore amet nihil porro blanditiis neque vitae consequatur laboriosam dolorem?",
+  "images": [
+    "file_1728213464591.jpg"
+  ],
+  "price": 65,
+  "quantity": 9,
+  "categoryId": {
+    "$oid": "670269a68b5aa907729144c7"
+  },
+  "createdAt": {
+    "$date": "2024-10-06T11:47:27.197Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T11:47:27.197Z"
+  },
+  "__v": 0
+}]

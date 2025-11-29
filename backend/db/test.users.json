@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "67025e0b8b5aa907729144bc"
+  },
+  "username": "admin",
+  "password": "$2a$10$ihavD9dhjlwA.IpfVOxlvuOW65E6v1.HdrnSDMZt.Zr9QFHhJN.M6",
+  "role": "admin",
+  "favoriteProductIds": [],
+  "createdAt": {
+    "$date": "2024-10-06T09:53:15.422Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T09:53:15.422Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67027f8afec12705e7856c9f"
+  },
+  "title": "Slider one",
+  "image": "file_1728216880205.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027f9efec12705e7856ca1"
+  },
+  "title": "Slider two",
+  "image": "file_1728216889027.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027fa9fec12705e7856ca3"
+  },
+  "title": "Slider three",
+  "image": "file_1728216898751.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67027fb3fec12705e7856ca5"
+  },
+  "title": "Slider four",
+  "image": "file_1728216906488.jpg",
+  "__v": 0
+}]
