@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function App() {
+export default function PrivateLayout() {
   return (
     <div>
       
