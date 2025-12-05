@@ -10,6 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Box } from "@mui/material";
 import { useEffect, useState } from "react";
 import fetchData from "../../../Utils/fetchData";
+import MSLoading from "./MSLoading";
 
 
 export default function MainSlider() {
@@ -30,6 +31,7 @@ export default function MainSlider() {
       <p>{slider.title}</p>
     </SwiperSlide>
   ));
+  if(!sliders) return <MSLoading/>
   return (
     <Box
       sx={{
