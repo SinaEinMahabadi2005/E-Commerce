@@ -1,10 +1,12 @@
 import React from 'react'
 import MainSlider from './MainSlider'
+import DiscountProduct from './DiscountProduct'
 
 export default function Home() {
   return (
     <>
       <MainSlider/>
+      <DiscountProduct/>
     </>
   )
 }

@@ -1,0 +1,90 @@
+.swiper.disc-products {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+/* Pagination Styles */
+.swiper.disc-products .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.swiper.disc-products .swiper-pagination-bullet-active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Navigation Button Styles */
+.swiper.disc-products .swiper-button-next,
+.swiper.disc-products .swiper-button-prev {
+  background: rgba(208, 208, 208, 0.597);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  top: 50%;
+  transform: translateY(-50%);
+  backdrop-filter: blur(2px);
+  
+}
+/* Navigation Button Styles */
+.swiper.disc-products .swiper-button-next svg,
+.swiper.disc-products .swiper-button-prev svg{
+    width: 30px;
+    height: 30px;
+    color:teal;
+}
+
+.swiper.disc-products .swiper-button-next:hover,
+.swiper.disc-products .swiper-button-prev:hover {
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.swiper.disc-products .swiper-button-next:hover::after,
+.swiper.disc-products .swiper-button-prev:hover::after {
+  color: white;
+}
+
+.swiper.disc-products .swiper-button-next {
+  right: 20px;
+}
+
+.swiper.disc-products .swiper-button-prev {
+  left: 20px;
+}
+
+.swiper.disc-products .swiper-button-next::after,
+.swiper.disc-products .swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .swiper.disc-products .swiper-button-next,
+  .swiper.disc-products .swiper-button-prev {
+    display: none;
+  }
+  
+  .swiper.disc-products {
+    padding: 0 5px;
+  }
+}
+
+/* Slide animation improvements */
+.swiper.disc-products .swiper-slide {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  height: auto;
+}
+
+.swiper.disc-products .swiper-slide-active {
+  opacity: 1;
+}
