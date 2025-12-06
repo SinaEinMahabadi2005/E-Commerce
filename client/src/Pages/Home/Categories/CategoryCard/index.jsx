@@ -6,7 +6,7 @@ export default function CategoryCard({ id, title, image }) {
     const navigate=useNavigate()
   return (
     <Box
-    onClick={()=>navigate(`/product/${id}/${title.replaceAll(' ','-')}`)}
+    onClick={()=>navigate(`/products/${id}/${title.replaceAll(' ','-')}`)}
       sx={{
         width: "100%",
         height: "320px",
