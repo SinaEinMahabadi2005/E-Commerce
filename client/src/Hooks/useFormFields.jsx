@@ -5,5 +5,5 @@ export default function useFormFields(initialState={}) {
     const handleChange=(e)=>{
         setFields({ ...fields, [e.target.name]: e.target.value })
     }
-    return [fields, handleChange]
+    return [fields, handleChange,setFields]
 }

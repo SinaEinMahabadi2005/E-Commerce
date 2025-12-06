@@ -5,14 +5,14 @@ import bcryptjs from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 export const signup = catchAsync(async (req, res, next) => {
-  const { username = null, password = null } = req.body;
+  const { username = null, password = null , email=null } = req.body;
 
   if (password?.length < 4) {
     return next(new HandleError("must be 4 character at least"));
   }
 
   const hashedPassword = bcryptjs.hashSync(password, 10);
-  await User.create({ username, password: hashedPassword });
+  await User.create({ username, password: hashedPassword,email });
 
   res.status(201).json({
     success: true,
