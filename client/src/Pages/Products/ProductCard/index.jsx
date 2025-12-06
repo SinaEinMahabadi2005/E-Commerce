@@ -31,7 +31,7 @@ export default function ProductCard({product}) {
       </CardContent>
       <CardActions>
         <Button size="small">Share</Button>
-        <Button size="small" onClick={()=>navigate(`product-details/${product._id}/${product.name.replaceAll(' ','-')}`)}>Learn More</Button>
+        <Button size="small" onClick={()=>navigate(`/product-details/${product._id}/${product.name.replaceAll(' ','-')}`)}>Learn More</Button>
       </CardActions>
     </Card>
   );

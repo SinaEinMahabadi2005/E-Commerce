@@ -36,7 +36,7 @@ export const get = catchAsync(async (req, res, next) => {
       isFavorite = true;
     }
   }
-  const product = await Product.findById(id);
+  const product = await Product.findById(id).populate('categoryId');
 
   return res.status(200).json({
     success: true,
